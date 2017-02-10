@@ -4,17 +4,30 @@ public class _34SearchforaRange {
 	public int[] searchRange(int[] nums, int target) {
 		int []result={-1,-1};
         int len=nums.length;
-        if(len<=1)
+        if(len==0)
         	return result;
-        for(int i=0;i<len;i++){
-        	
+        int i,j;
+        for(i=0;i<len;i++){
+        	if(nums[i]==target){
+        		result[0]=i;
+        		break;
+        	}//if	
         }//for
-		
+        for(j=len-1;j>=0;j--){
+        	if(nums[j]==target){
+        		result[1]=j;
+        		break;
+        	}//if
+        }//for
+        return result;
     }
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		_34SearchforaRange A=new _34SearchforaRange();
+		int []a={1};
+		int []result=A.searchRange(a, 1);
+		System.out.println(result[0]+"  "+result[1]);
 	}
 
 }
