@@ -17,6 +17,7 @@ public class _78Subsets {
 	}//DFS
 	
 	public List<List<Integer>> subsets(int[] nums) {
+		Arrays.sort(nums);
         List<List<Integer>> result=new ArrayList<>();
         List<Integer> path=new ArrayList<>();
         result.add(path);
@@ -33,7 +34,7 @@ public class _78Subsets {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		_78Subsets A=new _78Subsets();
-		int []a={1};
+		int []a={4,4,4,1,4};
 		List<List<Integer>> result=A.subsets(a);
 		System.out.println(result);
 	}
