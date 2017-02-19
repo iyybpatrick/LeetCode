@@ -1,2 +1,5 @@
 # LeetCode
-Early bird catches the worm
+Early bird catches the worm.
+
+
+for building foundation
