@@ -1,4 +1,4 @@
-import _199BinaryTreeRightSideView.TreeNode;
+
 import java.util.*;
 public class _236LowestCommonAncestorOfABinaryTree {
 
@@ -21,8 +21,6 @@ public class _236LowestCommonAncestorOfABinaryTree {
 		}
 		
 		return left == null ? right : left;
-		
-        
     }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
