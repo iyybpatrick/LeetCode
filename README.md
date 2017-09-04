@@ -1,5 +1,5 @@
 # LeetCode
-Early bird catches the worm.
 
+Record my leetcode solutions according to algorithm tags on the [website](https://leetcode.com/problemset/all).
 
-for building foundation
+Practice makes perfect.
