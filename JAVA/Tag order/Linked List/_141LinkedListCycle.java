@@ -11,7 +11,7 @@ public class _141LinkedListCycle {
 	        if(head==null) return false;
 	        ListNode onestep=head;
 	        ListNode twostep=head;
-	        while(twostep.next!=null&&twostep.next.next!=null){
+	        while(twostep.next!=null && twostep.next.next!=null){
 	        	onestep=onestep.next;
 	        	twostep=twostep.next.next;
 	        	if(onestep==twostep) return true;
