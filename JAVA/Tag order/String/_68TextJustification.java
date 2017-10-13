@@ -26,7 +26,7 @@ public class _68TextJustification {
         			}//for
         	}//if
         	else{
-        		int ave_space=(( maxWidth - count)/interval) +1;
+        		int ave_space=(( maxWidth - count)/interval) + 1;
         		int remain= ( maxWidth - count) %interval;
         		
         		//do not include last word of this line.
